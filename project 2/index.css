@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito";
+}
+
+body{
+    background-color: #001e4d;
+}
+
+.app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    width: 100%;
+    font-weight: 700;
+    padding: 10px;
+    font-size: large;
+    margin-top: 20px;
+    background: #001e4d;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct{
+    background: rgba(0, 128, 0, 0.498);
+}
+.inCorrect{
+    background: rgba(255, 0, 0, 0.523);
+}
